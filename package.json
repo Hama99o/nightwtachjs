@@ -1,0 +1,25 @@
+{
+  "name": "nightwatchjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hama99o/nightwtachjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hama99o/nightwtachjs/issues"
+  },
+  "homepage": "https://github.com/Hama99o/nightwtachjs#readme",
+  "devDependencies": {
+    "chromedriver": "^90.0.0",
+    "geckodriver": "^1.22.3",
+    "nightwatch": "^1.6.3"
+  }
+}

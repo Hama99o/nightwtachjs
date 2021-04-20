@@ -24,6 +24,7 @@ module.exports = {
       .click(lastupdateSelecter)
       .click(region)
       .click(regionSelector)
+      // .perform(() => {debugger})
       .click(submit)
       .assert.urlContains('as_q=Hama', "Params: searching for Hama")
       .assert.urlContains(lag,"Params: language is french")

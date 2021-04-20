@@ -5,9 +5,9 @@
 
   <testsuite name="firstTest"
     errors="0" failures="0" hostname="" id="" package="firstTest" skipped="0"
-    tests="1" time="5.797" timestamp="">
+    tests="1" time="12.65" timestamp="">
   
-    <testcase name="My first test case" classname="firstTest" time="5.797" assertions="2">
+    <testcase name="My first test case" classname="firstTest" time="12.65" assertions="2">
 
     
 
@@ -15,6 +15,12 @@
     </testcase>
   
 
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;Process unexpectedly closed with status 0&#34;
+       at endReadableNT (_stream_readable.js:1187:12)
+       at processTicksAndRejections (internal/process/task_queues.js:84:21)
+    </system-err>
   
 
     

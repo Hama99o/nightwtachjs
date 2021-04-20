@@ -10,7 +10,9 @@ module.exports = {
     const submit = ".jfk-button[type='submit']"
     const region = "#cr_button"
     const regionSelector = ".goog-menuitem[value='countryAF']"
-
+    const lag = "lr=lang_fr"
+    const country = "cr=countryAF"
+    const inputSearch = `.gsfi[name='q'][value='${mainQuery}']`
 
 
     browser
@@ -23,7 +25,10 @@ module.exports = {
       .click(region)
       .click(regionSelector)
       .click(submit)
-      .assert.urlContains('as_q=Hama')
+      .assert.urlContains('as_q=Hama', "Params: searching for Hama")
+      .assert.urlContains(lag,"Params: language is french")
+      .assert.urlContains(country, "Params: country is Afghanistan")
+      .assert.visible(inputSearch, 'UI: Hama is in query input')
       .saveScreenshot('tests_output/google.png')
-  }
+  },
 }

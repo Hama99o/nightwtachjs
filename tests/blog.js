@@ -1,5 +1,6 @@
 module.exports = {
   '@tags': ['blog'],
+  '@disabled': true,
   'google advance test'(browser){
     const mainQuery ="Hama"
     const page = browser.page.googleAdvancedSearch()

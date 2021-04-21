@@ -1,6 +1,6 @@
-1618933584460	geckodriver	INFO	Listening on 127.0.0.1:4444
-1618933585252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCX6gYs"
+1618994406663	geckodriver	INFO	Listening on 127.0.0.1:4444
+1618994407190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefu3alw"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
-1618933613746	Marionette	INFO	Listening on port 40367
+1618994419051	Marionette	INFO	Listening on port 35045
 JavaScript error: , line 0: NetworkError: A network error occurred.
-1618933622777	Marionette	INFO	Stopped listening on port 40367
+1618994425743	Marionette	INFO	Stopped listening on port 35045

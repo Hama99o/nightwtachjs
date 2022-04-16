@@ -8,7 +8,6 @@ module.exports = {
     const country = "cr=countryAF"
     const inputSearch = `.gsfi[name='q'][value='${mainQuery}']`
 
-
     page
       .navigate()
       .mainQuery( mainQuery)
